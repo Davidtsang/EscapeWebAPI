@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22da17dc-f4a1-415a-aad5-4b29f9b26509" name="Default" comment="" />
+    <ignored path="escape-webapi.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/escape-webapi$escape_webapi.coverage" NAME="escape-webapi Coverage Results" MODIFIED="1407479627052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="escape-webapi" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4927798">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3280" max-vertical-offset="5072">
+                  <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.47003525" vertical-offset="784" max-vertical-offset="8224">
+                  <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+                  <folding>
+                    <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+                    <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+                    <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+                    <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+                    <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+                    <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+                    <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+                    <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+                    <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+                    <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+                    <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+                    <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+                    <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+                    <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+                    <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+                    <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.41950646" vertical-offset="5979" max-vertical-offset="8224">
+                  <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+                  <folding>
+                    <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+                    <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+                    <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+                    <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+                    <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+                    <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+                    <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+                    <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+                    <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+                    <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+                    <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+                    <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+                    <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+                    <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+                    <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+                    <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+                    <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="escape-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="escape-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="escape-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.escape-webapi">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="escape-webapi" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="escape-webapi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.escape-webapi" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22da17dc-f4a1-415a-aad5-4b29f9b26509" name="Default" comment="" />
+      <created>1406944453493</created>
+      <updated>1406944453493</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="982" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1400426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.115015976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39798206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="24" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3280" max-vertical-offset="5072">
+          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5979" max-vertical-offset="8224">
+          <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4784">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="6640">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7344">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4784">
+          <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="6640">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6235" max-vertical-offset="7280">
+          <caret line="434" column="0" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4784">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="6640">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6235" max-vertical-offset="7280">
+          <caret line="412" column="29" selection-start-line="412" selection-start-column="29" selection-end-line="412" selection-end-column="29" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2560" max-vertical-offset="4656">
+          <caret line="177" column="6" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="6640">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7344">
+          <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4736">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="6640">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="800">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4016" max-vertical-offset="7248">
+          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3408" max-vertical-offset="5424">
+          <caret line="226" column="25" selection-start-line="226" selection-start-column="25" selection-end-line="226" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6224">
+          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6224">
+          <caret line="258" column="17" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3693" max-vertical-offset="6096">
+          <caret line="251" column="48" selection-start-line="251" selection-start-column="48" selection-end-line="251" selection-end-column="48" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6080">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="6304">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31408775" vertical-offset="0" max-vertical-offset="866">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2391" max-vertical-offset="6608">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2747" max-vertical-offset="4944">
+          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41950646" vertical-offset="5979" max-vertical-offset="8224">
+          <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+          <folding>
+            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
+            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
+            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
+            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
+            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
+            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
+            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
+            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
+            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
+            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
+            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
