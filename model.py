@@ -8,6 +8,17 @@ import base64
 import psycopg2
 import psycopg2.extras
 
+import platform
+
+
+def get_env():
+
+    env_dev_osname = 'Darwin-12.5.0-x86_64-i386-64bit'
+    this_env = platform.platform()
+    if(env_dev_osname.split('-')[0] == this_env.split('-')[0]):
+        return 'env_dev'
+    else:
+        return 'env_production'
 
 SESSION_EXPIRES = -1
 SESSION_EXPIRES_TIMES = 3600
@@ -17,6 +28,7 @@ INBOX_THE_TYPE_TEXT_BTN = 'TB'
 
 FRIENDSHIP_STATUS_OK = 'OK'
 FRIENDSHIP_STATUS_BAN = 'BA'
+
 
 
 def create_table():
@@ -100,7 +112,13 @@ class DB(object):
     @classmethod
     def connect(cls):
         ''' INIT DB '''
-        conn = psycopg2.connect("dbname=gameranking  user=user host=127.0.0.1  port=5432")
+        env = get_env()
+        if env == 'env_dev':
+            dbstr = "dbname=gameranking  user=user host=127.0.0.1  port=5432"
+        else:
+            dbstr = "dbname=gameranking  user=postgres host=127.0.0.1  port=5432"
+
+        conn = psycopg2.connect(dbstr)
         print "Opened database successfully"
         return conn
 
