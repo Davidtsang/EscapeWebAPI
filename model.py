@@ -116,7 +116,7 @@ class DB(object):
         if env == 'env_dev':
             dbstr = "dbname=gameranking  user=user host=127.0.0.1  port=5432"
         else:
-            dbstr = "dbname=gameranking  user=postgres host=127.0.0.1  port=5432"
+            dbstr = "dbname=gameranking  user=postgres password=z12345678 host=127.0.0.1  port=5432"
 
         conn = psycopg2.connect(dbstr)
         print "Opened database successfully"
