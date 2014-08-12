@@ -70,33 +70,6 @@ CREATE TABLE scores(
    updated_at INT NOT NULL
 );
 
-DROP TABLE IF EXISTS  address_books ;
-CREATE TABLE address_books(
-   id SERIAL PRIMARY KEY NOT NULL,
-   phone_number_1 VARCHAR(32) ,
-   phone_number_2 VARCHAR(32) ,
-   phone_number_3 VARCHAR(32) ,
-   email_1 VARCHAR(150),
-   email_2 VARCHAR(150),
-   email_3 VARCHAR(150),
-   name VARCHAR(80),
-   first_name VARCHAR (32),
-   last_name VARCHAR (32),
-   user_id  INT NOT NULL,
-   created_at INT NOT NULL,
-   updated_at INT NOT NULL
-);
-
-
-DROP TABLE IF EXISTS friendships ;
-CREATE TABLE friendships(
-   id SERIAL PRIMARY KEY     NOT NULL,
-   user_id  INT NOT NULL,
-   friend_id INT NOT NULL,
-   status CHAR(2),
-   created_at INT NOT NULL,
-   updated_at INT NOT NULL
-);
 
     """)
     conn.commit()
@@ -263,86 +236,9 @@ class Ranking(CWModel):
         return 0
 
 
-# def create(self):
-#
-#         CWModel.create(self)
-#         #user got_it num +1
-#
-#         sql =self.cur.mogrify("UPDATE users SET notice_got_it_number = (notice_got_it_number+ 1) \
-# WHERE id  = %s ;", (self.notice_id ,) )
-#         print sql
-#         self.cur.execute(sql)
-#         self.conn.commit()
-
-
-class Phonebook(CWModel):
-    @classmethod
-    def create_many(cls, user_id, phonebooks):
-        for index_phonebook in phonebooks:
-            phone_number = index_phonebook["phone_number"]
-            email = index_phonebook["email"]
-            now_time = int(time.time())
-            sql = cls.cur.mogrify("INSERT INTO phonebooks (phone_number ,email ,user_id ,\
-created_at, updated_at ) VALUES (%s, %s, %s,%s,%s) ;", (phone_number, email, user_id, now_time, now_time))
-            print sql
-            cls.cur.execute(sql)
-        cls.conn.commit()
-
-
-class Friendship(CWModel):
-    """ friendship maker
-    """
-
-    @classmethod
-    def is_friendship_exist(cls, user_id, friend_id):
-        sql = "user_id = %s AND friend_id = %s LIMIT 1" % (user_id, friend_id)
-        if cls.find_by(sql):
-            return True
-        return False
-
-    @classmethod
-    def remove_friendship(cls, user_id, friend_id):
-        table_name = cls.__name__.lower() + 's'
-        sql_up = "DELETE FROM %s" % table_name
-        sql_up = sql_up + " WHERE user_id = %s AND friend_id = %s;"
-        sql = cls.cur.mogrify(sql_up, (user_id, friend_id,))
-        #cls.conn.commit()
-        print sql
-        cls.cur.execute(sql)
-        cls.conn.commit()
-
-
-class Session(CWModel):
-    """docstring for Session"""
-
-    @staticmethod
-    def generate_session_id():
-        return base64.urlsafe_b64encode(os.urandom(64))
-
-    @classmethod
-    def check_it(cls, kwargs):
-        print "session rqs:", kwargs
-        # from id get session data
-        session_info = cls.find_by_id(kwargs['id'])
-
-        if not session_info or (session_info['session_id'] != kwargs['session_id']) \
-                or (str(session_info['user_id']) != str(kwargs['user_id'])):
-            print 'im here'
-            # print str(session_info['session_id'])  , str(kwargs['session_id'])
-            return False
-
-        now_time = time.time()
-        exp_time = session_info['updated_at'] + 3600
-        if now_time > exp_time:
-            return SESSION_EXPIRES
-
-        return True
 
 
 class Score(CWModel):
-    pass
-
-class Address_book(CWModel):
     pass
 
 class User(CWModel):
@@ -361,54 +257,6 @@ class User(CWModel):
         else:
             return False
 
-    def upload_addressbook(self, book):
-        #for
-        #get val
-        #reapeat?
-        #create
-        for index_book in book:
-
-            first_name = index_book['first_name']
-            last_name = index_book['last_name']
-
-            emails = index_book['emails']
-            email1 = None
-            email2 = None
-            email3 = None
-
-
-            if len(emails) > 0: email1 = emails[0]
-            if len(emails) > 1: email2 = emails[1]
-            if len(emails) > 2: email3 = emails[2]
-
-            phones = index_book['phone_numbers']
-            phone1 = None
-            phone2 = None
-            phone3 = None
-            if len(phones) > 0 : phone1 = phones[0]
-            if len(phones) > 1 : phone2 = phones[1]
-            if len(phones) > 2 : phone3 = phones[2]
-
-
-            #repeat? first last phone1 === IS REPAET!
-            sql_up = "first_name = %s AND last_name = %s AND phone_number_1 = %s"
-            where_str = self.cur.mogrify(sql_up, (first_name,last_name,phone1,))
-            is_repeat = Address_book.find_by(where=where_str)
-            if not is_repeat:
-                address_book = Address_book()
-                address_book.first_name = first_name
-                address_book.last_name = last_name
-                address_book.user_id = self.id
-
-                if email1: address_book.email_1 = email1
-                if email2: address_book.email_2 = email2
-                if email3: address_book.email_3 = email3
-
-                if phone1: address_book.phone_number_1 = phone1
-                if phone2: address_book.phone_number_2 = phone2
-                if phone3: address_book.phone_number_3 = phone3
-
-                address_book.create()
 
 
     def update_score(self, game_id, score_):

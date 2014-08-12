@@ -165,37 +165,20 @@ def get_ranking_best( ):
 def get_beatrank(user_id):
     #get game id
     game_id = request.args.get("game_id")
-
+    user_score = request.args.get("score");
     if not game_id:
         abort(400)
 
     right_user_required(user_id)
 
     user = model.User(user_id)
-    user_rank = user.my_rank(game_id)
+    user_rank = user.my_rank(game_id, score_= user_score)
     if user_rank:
         user_beatrank = user.get_beatrank(user_rank)
-        return jsonify({'beatrank': user_beatrank})
+        return jsonify({'beatrank': user_beatrank ,'user_rank':user_rank})
     else:
-        return jsonify({'beatrank': 0 })
+        return jsonify({'beatrank': 0,'user_rank':0 })
 
-# GET RANKING BEST
-# GET api/v1.0/ranking/best?game_id=1
-@app.route('/api/v1.0/user/<int:user_id>/address_book', methods=['POST'])
-@auth_token_required
-def upload_address_book(user_id):
-    #get game id
-    game_id = request.args.get("game_id")
-
-    if not game_id:
-        abort(400)
-
-    right_user_required(user_id)
-
-    user = model.User(user_id)
-    user_book =request.json["address_book"];
-    user.upload_addressbook(user_book)
-    return jsonify({'success': 1 })
 
 # update score etc
 @app.route('/api/v1.0/user/<int:user_id>', methods=['PUT'])
@@ -216,95 +199,6 @@ def user_update(user_id):
 
     return jsonify({'success': 1 })
 
-# add user /friendship /create
-@app.route('/api/v1.0/user/<int:user_id>/friendship', methods=['POST'])
-
-def friendship_create(user_id):
-
-    right_user_required( user_id)
-
-    #friend_id
-
-    if not request.json or not "friend_id" in request.json:
-        abort(400)
-
-    friend_id = request.json["friend_id"]
-
-    #check friend exist
-    if not model.User.find_by_id(friend_id):
-        return jsonify({'error': 'This friend does not exist'})
-
-    #check repeat
-    if model.Friendship.is_friendship_exist(user_id,friend_id):
-        return jsonify({'error': 'This friend already exists'})
-
-    friendship = model.Friendship()
-
-    friendship.friend_id = friend_id
-    friendship.user_id = user_id
-
-    friendship.create()
-
-    return jsonify({'success': 1})
-
-#remove friendship
-@app.route('/api/v1.0/user/<int:user_id>/friendship/<int:friend_id>', methods=['DELETE'])
-def remove_friendship(user_id, friend_id):
-
-    right_user_required(user_id)
-
-    #remove friendship
-    model.Friendship.remove_friendship(user_id, friend_id)
-    return jsonify({'success': 1})
-
-# got it action: some on got_it a user's notice create
-@app.route('/api/v1.0/got_it', methods=['POST'])
-def create_got_it():
-
-    #must have user_id , notice_id 2 fileds
-    need_attr_list = ['user_id', 'notice_id']
-
-    if not request.json or not check_list_in_dict(need_attr_list, request.json):
-        print 'json rqs error!'
-        abort(400)
-
-
-    user_id = request.json["user_id"]
-    notice_id = request.json["notice_id"]
-
-    right_user_required(user_id)
-
-    #shall notice(user) is exists
-    if not model.User.find_by_id(notice_id):
-        abort(400)
-
-    #repeat check
-    if model.Got_it.is_already_got_it( user_id, notice_id):
-        abort(400)
-
-    got_it = model.Got_it()
-    got_it.notice_id = notice_id
-    got_it.user_id = user_id
-    got_it.create()
-    return jsonify({'success': 1})
-
-#upload phonebooks create
-@app.route('/api/v1.0/phonebook', methods=['POST'])
-def create_phonebooks():
-
-    #must have user_id , notice_id 2 fileds
-    need_attr_list = ['user_id', 'phonebooks']
-    if not request.json or not check_list_in_dict(need_attr_list, request.json):
-        print 'json rqs error!'
-        abort(400)
-
-    user_id = request.json["user_id"]
-    user_phonebooks = request.json["phonebooks"]
-
-    right_user_required(user_id)
-
-    model.Phonebook.create_many( user_id,user_phonebooks)
-    return jsonify({'success': 1})
 
 
 if __name__ == '__main__':

@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/escape-webapi$escape_webapi.coverage" NAME="escape-webapi Coverage Results" MODIFIED="1407479627052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/escape-webapi$escape_webapi.coverage" NAME="escape-webapi Coverage Results" MODIFIED="1407654135868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,44 +31,48 @@
           <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="3280" max-vertical-offset="5072">
-                  <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="2192" max-vertical-offset="3248">
+                  <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="uwsgi_config.ini" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/uwsgi_config.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.019070322" vertical-offset="0" max-vertical-offset="839">
+                  <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47003525" vertical-offset="784" max-vertical-offset="8224">
-                  <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="3824" max-vertical-offset="5872">
+                  <caret line="239" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
                   <folding>
-                    <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-                    <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-                    <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-                    <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-                    <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-                    <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-                    <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-                    <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-                    <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-                    <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-                    <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-                    <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-                    <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-                    <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-                    <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-                    <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+                    <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+                    <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+                    <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+                    <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+                    <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+                    <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+                    <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+                    <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+                    <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+                    <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+                    <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+                    <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
                   </folding>
                 </state>
               </provider>
@@ -78,37 +82,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41950646" vertical-offset="5979" max-vertical-offset="8224">
-                  <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+                <state vertical-scroll-proportion="3.8888888" vertical-offset="432" max-vertical-offset="5792">
+                  <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
                   <folding>
-                    <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-                    <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-                    <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-                    <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-                    <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-                    <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-                    <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-                    <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-                    <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-                    <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-                    <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-                    <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-                    <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-                    <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-                    <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-                    <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-                    <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-                    <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+                    <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+                    <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+                    <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+                    <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+                    <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+                    <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+                    <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+                    <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+                    <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+                    <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+                    <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+                    <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+                    <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+                    <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
                   </folding>
                 </state>
               </provider>
@@ -126,8 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/uwsgi_config.xml" />
+        <option value="$PROJECT_DIR$/uwsgi_config.ini" />
       </list>
     </option>
   </component>
@@ -162,7 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,6 +182,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,9 +281,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,6 +302,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -392,8 +392,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1400426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.115015976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14323749" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115015976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39798206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -401,11 +401,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -432,6 +432,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2301" max-vertical-offset="3520">
+          <caret line="164" column="26" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7104">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding>
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2301" max-vertical-offset="3520">
+          <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7104">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding>
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3280" max-vertical-offset="5072">
           <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
           <folding />
@@ -443,31 +515,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="5979" max-vertical-offset="8224">
           <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -499,31 +565,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7344">
           <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -555,31 +615,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="6235" max-vertical-offset="7280">
           <caret line="434" column="0" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -611,31 +665,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="6235" max-vertical-offset="7280">
           <caret line="412" column="29" selection-start-line="412" selection-start-column="29" selection-end-line="412" selection-end-column="29" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -667,31 +715,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7344">
           <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -723,31 +765,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4016" max-vertical-offset="7248">
           <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -765,31 +801,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6224">
           <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -807,31 +837,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3693" max-vertical-offset="6096">
           <caret line="251" column="48" selection-start-line="251" selection-start-column="48" selection-end-line="251" selection-end-column="48" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -841,31 +865,25 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6080">
           <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -892,45 +910,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3824" max-vertical-offset="5872">
+          <caret line="239" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding>
+            <marker date="1407809934000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
+            <marker date="1407809934000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
+            <marker date="1407809934000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
+            <marker date="1407809934000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
+            <marker date="1407809934000" expanded="true" signature="3013:3036" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3524:3547" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="3787:3825" placeholder="SELECT * FRO..missing_value..." />
+            <marker date="1407809934000" expanded="true" signature="4032:4137" placeholder="SELECT colum..columns..." />
+            <marker date="1407809934000" expanded="true" signature="4356:4393" placeholder="UPDATE missi..." />
+            <marker date="1407809934000" expanded="true" signature="4977:5020" placeholder="INSERT INTO ..." />
+            <marker date="1407809934000" expanded="true" signature="5911:5956" placeholder="SELECT id FR..users..." />
+            <marker date="1407809934000" expanded="true" signature="7395:7538" placeholder="SELECT id ,r..id..." />
+            <marker date="1407809934000" expanded="true" signature="7427:7466" placeholder="SELECT id , ..." />
+            <marker date="1407809934000" expanded="true" signature="7716:7746" placeholder="SELECT COUNT..rankings..." />
+            <marker date="1407809934000" expanded="true" signature="8263:8370" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2747" max-vertical-offset="4944">
-          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2192" max-vertical-offset="3248">
+          <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
+    <entry file="file://$PROJECT_DIR$/uwsgi_config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41950646" vertical-offset="5979" max-vertical-offset="8224">
-          <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-          <folding>
-            <marker date="1407479646000" expanded="true" signature="391:417" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="420:773" placeholder="CREATE TABLE..users..." />
-            <marker date="1407479646000" expanded="true" signature="776:803" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="806:983" placeholder="CREATE TABLE..games..." />
-            <marker date="1407479646000" expanded="true" signature="986:1016" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1019:1210" placeholder="CREATE TABLE..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="1213:1241" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1244:1433" placeholder="CREATE TABLE..scores..." />
-            <marker date="1407479646000" expanded="true" signature="1436:1471" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1474:1866" placeholder="CREATE TABLE..address_books..." />
-            <marker date="1407479646000" expanded="true" signature="1870:1902" placeholder="DROP TABLE I..." />
-            <marker date="1407479646000" expanded="true" signature="1905:2098" placeholder="CREATE TABLE..friendships..." />
-            <marker date="1407479646000" expanded="true" signature="3677:3700" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4188:4211" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4451:4489" placeholder="SELECT * FRO..missing_value..." />
-            <marker date="1407479646000" expanded="true" signature="4696:4801" placeholder="SELECT colum..columns..." />
-            <marker date="1407479646000" expanded="true" signature="5020:5057" placeholder="UPDATE missi..." />
-            <marker date="1407479646000" expanded="true" signature="5641:5684" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="6989:7095" placeholder="INSERT INTO ..." />
-            <marker date="1407479646000" expanded="true" signature="7656:7668" placeholder="DELETE FROM ..." />
-            <marker date="1407479646000" expanded="true" signature="8970:9015" placeholder="SELECT id FR..users..." />
-            <marker date="1407479646000" expanded="true" signature="12161:12304" placeholder="SELECT id ,r..id..." />
-            <marker date="1407479646000" expanded="true" signature="12193:12232" placeholder="SELECT id , ..." />
-            <marker date="1407479646000" expanded="true" signature="12482:12512" placeholder="SELECT COUNT..rankings..." />
-            <marker date="1407479646000" expanded="true" signature="13029:13136" placeholder="SELECT * FRO..users..." />
-          </folding>
+        <state vertical-scroll-proportion="0.019070322" vertical-offset="0" max-vertical-offset="839">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
