@@ -135,7 +135,15 @@ def auth_token_required(fn):
     return fn_wrap
 
 #post, create a user safe : pre-shared key
-@app.route('/api/v1.0/user', methods=['POST'])
+def make_env_str():
+    env_str = ''
+    if model.get_env() != 'env_dev':
+        env_str ='/cherryboard'
+
+    return  env_str
+
+env_str = make_env_str()
+@app.route(env_str + '/api/v1.0/user', methods=['POST'])
 @auth_token_required
 def create_user():
     #get game id
@@ -148,7 +156,9 @@ def create_user():
 
 #GET RANKING BEST
 #GET api/v1.0/ranking/best?game_id=1
-@app.route('/api/v1.0/ranking/best', methods=['GET'])
+
+
+@app.route(env_str + '/api/v1.0/ranking/best', methods=['GET'])
 @auth_token_required
 def get_ranking_best( ):
     #get game id
@@ -160,7 +170,7 @@ def get_ranking_best( ):
 
 # GET RANKING BEST
 # GET api/v1.0/ranking/best?game_id=1
-@app.route('/api/v1.0/user/<int:user_id>/beatrank', methods=['GET'])
+@app.route(env_str + '/api/v1.0/user/<int:user_id>/beatrank', methods=['GET'])
 @auth_token_required
 def get_beatrank(user_id):
     #get game id
@@ -181,7 +191,7 @@ def get_beatrank(user_id):
 
 
 # update score etc
-@app.route('/api/v1.0/user/<int:user_id>', methods=['PUT'])
+@app.route(env_str + '/api/v1.0/user/<int:user_id>', methods=['PUT'])
 @auth_token_required
 def user_update(user_id):
     game_id = request.args.get("game_id")
