@@ -85,7 +85,7 @@ CREATE TABLE scores(
 
     """)
     conn.commit()
-
+    print "CREATE TABLE..."
 
 def singleton(cls, *args, **kw):
     instances = {}
@@ -338,7 +338,9 @@ WHERE score  =  %s;""" % score_
         self.cur.execute(sql)
         user_count = self.cur.fetchone()[0]
 
-        beatrank = float( user_count - user_rank )/float(user_count -1)
+        beatrank = 0
+        if user_count > 1:
+            beatrank = float( user_count - user_rank )/float(user_count -1)
 
         return  beatrank
 

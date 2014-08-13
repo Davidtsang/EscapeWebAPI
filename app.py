@@ -142,6 +142,7 @@ def make_env_str():
 
     return  env_str
 
+#create user
 env_str = make_env_str()
 @app.route(env_str + '/api/v1.0/user', methods=['POST'])
 @auth_token_required
@@ -182,6 +183,9 @@ def get_beatrank(user_id):
     right_user_required(user_id)
 
     user = model.User(user_id)
+    if not user:
+        abort(400)
+
     user_rank = user.my_rank(game_id, score_= user_score)
     if user_rank:
         user_beatrank = user.get_beatrank(user_rank)
@@ -201,6 +205,9 @@ def user_update(user_id):
     right_user_required(user_id)
 
     user = model.User(user_id)
+    if not user:
+        abort(400)
+
     rq = request
     if request.json.has_key("score") :
         #update notice
