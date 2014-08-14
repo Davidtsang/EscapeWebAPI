@@ -150,8 +150,11 @@ class CWModel:
             self.id = rid
             this_model_info = self.find_by_id(rid)
             # full attr
-            for field in self.fields:
-                setattr(self, field, this_model_info[field])
+            if this_model_info:
+                for field in self.fields:
+                    setattr(self, field, this_model_info[field])
+            else:
+                return False
 
     def gen_find_by_methods(self, mname):
 
