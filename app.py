@@ -21,21 +21,18 @@ def md5(a_str):
 API_PRE_SHARED_KEY = md5(
     'The same came for a witness, to bear witness of the Light, that all men through him might believe.')
 
-# https://iphonebestapp.com/msgtree.app/api/v1.0
-# root  iphonebestapp.com/ssl/msgtree.app/
-
 app = Flask(__name__)
 
-
 @app.errorhandler(403)
-def not_found(error):
+def forbidden(error):
     return make_response(jsonify({'error': 'Forbidden'}), 403)
 
 
 @app.errorhandler(500)
-def not_found(error):
-    return make_response(jsonify({'error': 'Internal Server Error'}), 500)
-
+def internal_error(error):
+    app.logger.exception(error)
+    #return make_response(jsonify({'error': 'Internal Server Error'}), 500)
+    return make_response(jsonify({'error': error}), 500)
 
 @app.errorhandler(404)
 def not_found(error):
@@ -43,7 +40,7 @@ def not_found(error):
 
 
 @app.errorhandler(400)
-def not_found(error):
+def bad_request(error):
     return make_response(jsonify({'error': 'Bad Request'}), 400)
 
 

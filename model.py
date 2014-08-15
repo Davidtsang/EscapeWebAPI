@@ -333,7 +333,9 @@ WHERE score  =  %s;""" % score_
 
         self.cur.execute(sql)
         user_rank = self.cur.fetchone()
-        return  user_rank['rank']
+        if user_rank:
+            return  user_rank['rank']
+        return 0
 
     def get_beatrank(self, user_rank):
 
